@@ -1,0 +1,81 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 62.5%;
+}
+
+p, ul, ol, dl, blockquote {
+  font-size: 1.2rem;
+  line-height: 1.7rem;
+  margin-bottom: 12px;
+}
+
+article {
+  max-width: 620px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@font-face {
+  font-family: 'ubunturegular';
+  src: url('ubuntu-regular-webfont.woff2') format('woff2'),
+       url('ubuntu-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin: 20px 0;
+}
+
+h2{
+  font-size: 2rem;
+  margin: 16px 0;
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin: 14px 0;
+}
+
+h4 {
+  font-size: 1rem;
+  margin: 12px 0;
+}
+
+.credit, .byline {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+}
+
+.byline {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.credit {
+  float: right;
+  margin-top: 2px;
+  margin-bottom: 20px;
+  margin-left: 350px;
+}
+
+blockquote {
+  border-left: 4px grey solid;
+  padding: 20px;
+  margin-left: 30px;
+}
+
+ol {
+  list-style-position: inside;
+}
+
+#comment-notes {
+  background-color: #CCC;
+  padding: 12px;
+}
